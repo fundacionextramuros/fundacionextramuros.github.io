@@ -566,12 +566,36 @@ body{
 }
 
 .nav--footer{
-    padding-bottom: 20px;
+    padding-bottom: 40px;
     display: grid;
-    gap: 1em;
+    gap: 2em;
     grid-auto-flow: row;
     height: 100%;
 }
+
+.navlink--footer {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .nav__items {
+    margin-top: 10px;
+  }
+  
+  .nav__links {
+    display: block;
+  }
+
+  .nav__items a {
+    display: block;
+    margin-bottom: 10px;
+  }
+
+  h3 {
+    color: #fff;
+    margin-bottom: 10px;
+  }
+
 
 .nav__link--footer{
     display: flex;
@@ -633,6 +657,39 @@ body{
 .footer__img{
     width: 30px;
 }
+
+.footer__copyright{
+    
+    font-weight: 300;
+    color: #fff;
+    text-decoration: none;
+}
+
+.footer__icons{
+    display: inline-flex;
+    margin-bottom: 10px;
+}
+
+.footer__img{
+    width: 30px;
+}
+
+.links-column {
+    display: grid;
+  gap: 10px;
+  text-align: center;
+  }
+  
+  .links-column h2 {
+    margin-bottom: 10px;
+  }
+  
+  .links-column a {
+    display: block;
+    margin-bottom: 5px;
+  }
+
+   /* Footer nuevo*/
 
  /* Pagina 2 Portafolio*/
 
